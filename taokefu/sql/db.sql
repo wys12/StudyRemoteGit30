@@ -35,7 +35,7 @@ select * from job_class--职位分类
 	
 --创建序列
 create sequence login_sql INCREMENT BY 1 START WITH 1001 ;
-	
+create sequence tkfuser_sql INCREMENT BY 1 START WITH 1001 ;
 --select tkfuser_sql.nextval from dual;
 --drop sequence login_sql--用户信息序列
 
